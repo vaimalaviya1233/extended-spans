@@ -19,7 +19,6 @@ import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.PathEffect
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
-import androidx.compose.ui.graphics.asAndroidPath
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.isSpecified
 import androidx.compose.ui.text.AnnotatedString
@@ -112,7 +111,7 @@ class SquigglyUnderlineSpanPainter(
         )
         val textColor = annotation.item.deserializeToColor() ?: layoutResult.layoutInput.style.color
         boxes.fastForEach { box ->
-          path.asAndroidPath().rewind()
+          path.rewind()
           path.buildSquigglesFor(box, density = this)
           drawPath(
             path = path,
