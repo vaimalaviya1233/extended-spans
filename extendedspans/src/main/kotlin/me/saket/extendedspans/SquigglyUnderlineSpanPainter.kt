@@ -30,10 +30,10 @@ import androidx.compose.ui.text.style.TextDecoration.Companion.Underline
 import androidx.compose.ui.unit.Density
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.sp
-import me.saket.extendedspans.internal.deserializeToColor
-import me.saket.extendedspans.internal.fastFirstOrNull
-import me.saket.extendedspans.internal.fastForEach
+import androidx.compose.ui.util.fastFirstOrNull
+import androidx.compose.ui.util.fastForEach
 import me.saket.extendedspans.internal.fastMapRange
+import me.saket.extendedspans.internal.deserializeToColor
 import me.saket.extendedspans.internal.serialize
 import kotlin.math.ceil
 import kotlin.math.sin

@@ -10,9 +10,9 @@ import androidx.compose.ui.text.ExperimentalTextApi
 import androidx.compose.ui.text.LinkAnnotation
 import androidx.compose.ui.text.TextLayoutResult
 import androidx.compose.ui.text.buildAnnotatedString
-import me.saket.extendedspans.internal.fastFold
-import me.saket.extendedspans.internal.fastForEach
-import me.saket.extendedspans.internal.fastMap
+import androidx.compose.ui.util.fastFold
+import androidx.compose.ui.util.fastForEach
+import androidx.compose.ui.util.fastMap
 
 @Stable
 class ExtendedSpans(

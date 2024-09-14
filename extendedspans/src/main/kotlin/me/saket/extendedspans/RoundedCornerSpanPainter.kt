@@ -12,9 +12,9 @@ import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.TextLayoutResult
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.util.fastForEach
+import androidx.compose.ui.util.fastForEachIndexed
 import me.saket.extendedspans.internal.deserializeToColor
-import me.saket.extendedspans.internal.fastForEach
-import me.saket.extendedspans.internal.fastForEachIndexed
 import me.saket.extendedspans.internal.serialize
 
 /**
